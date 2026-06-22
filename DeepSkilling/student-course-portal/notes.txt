@@ -1,0 +1,75 @@
+Build Notes
+
+ng build successfully generated the dist folder.
+
+Output Location:
+dist/student-course-portal
+
+Compiled Application File:
+main-JEYTFC4D.js
+
+This file contains the compiled Angular application code that runs in the browser.
+
+ANGULAR PROJECT FILES
+
+angular.json - Angular workspace configuration file containing build, serve and project settings.
+
+tsconfig.json - Main TypeScript configuration file used by the project.
+
+tsconfig.app.json - TypeScript settings specifically for the Angular application source code.
+
+package.json - Contains project dependencies, scripts and metadata.
+
+src/main.ts - Entry point of the Angular application that bootstraps the app.
+
+src/app/app.config.ts - Configures application providers, routing and standalone application settings.
+
+src/app/app.ts - Root component of the Angular application.
+
+src/index.html - Main HTML page where the Angular application is loaded.
+
+
+
+BUILD OUTPUT ANALYSIS
+
+ng build successfully generated the dist folder.
+
+Output Location:
+dist/student-course-portal
+
+Files Generated:
+
+* browser/
+* 3rdpartylicenses.txt
+* prerendered-routes.json
+
+Compiled Application File:
+main-JEYTFC4D.js
+
+This file contains the compiled Angular application code that runs in the browser.
+
+
+
+BUDGET CONFIGURATION ANALYSIS
+
+Production Budget Settings:
+
+1. Initial Bundle Budget
+
+* maximumWarning: 500kB
+* maximumError: 1MB
+
+Purpose:
+These limits monitor the size of the application's initial bundle. Angular displays a warning if the bundle exceeds 500kB and fails the build if it exceeds 1MB.
+
+2. Component Style Budget
+
+* maximumWarning: 4kB
+* maximumError: 8kB
+
+Purpose:
+These limits monitor the size of individual component CSS files. Angular displays a warning if a component style exceeds 4kB and fails the build if it exceeds 8kB.
+
+Importance:
+Budget settings help maintain application performance by preventing excessively large JavaScript bundles and CSS files.
+
